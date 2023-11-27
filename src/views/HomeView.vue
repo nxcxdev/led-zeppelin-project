@@ -1,7 +1,11 @@
 <script setup lang="ts">
-</script>
+import BannerComponent from '@/components/BannerComponent.vue';
+import HeaderComponent from '@/components/HeaderComponent.vue';
 
+</script>
 <template>
+    <HeaderComponent/>
+    <BannerComponent/>
 </template>
 <style lang="scss">
 @import "../assets/styles.scss";
