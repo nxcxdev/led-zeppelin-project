@@ -5,12 +5,14 @@ import GalleryImage from '../components/GalleryImage.vue'
     <main>
         <h2>GALLERY</h2>
         <div id="gallery__container">
-            <GalleryImage/>
-            <GalleryImage/>
-            <GalleryImage/>
-            <GalleryImage/>
-            <GalleryImage/>
-            <GalleryImage/>
+            <article class="gallery__photo">
+                <img src="" alt="">
+                <div class="photo__footer">
+                <p>Photo footer</p>
+                <p>Date</p>
+                </div>
+            </article>
+
         </div>
     </main>
 </template>
