@@ -5,8 +5,8 @@ import FooterComponent from './components/FooterComponent.vue'
 </script>
 <template>
   <HeaderComponent/>
-  <FooterComponent/>
   <RouterView />
+  <FooterComponent/>
 </template>
 <style lang="scss">
   @import "./assets/styles.scss";
