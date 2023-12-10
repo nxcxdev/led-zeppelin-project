@@ -17,10 +17,11 @@
 </template>
 
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "../assets/styles.scss";
 
 article {
+    background-color: #2C2C2C;
     width: 100%;
     min-height: auto;
 
