@@ -3,6 +3,7 @@
 </script>
 
 <template>
+    <Header />
     <div class="Grid__Container">
     <RouterLink class="Gallery__Img Flex" to="/gallery">Gallery</RouterLink>
     <RouterLink class="Videos__Img Flex" to="/videos">Videos</RouterLink>
@@ -11,7 +12,6 @@
     <RouterLink class="Shop__Img Flex" to="/shop">Shop</RouterLink>
     
     </div>
-    <Header />
 
 </template>
 

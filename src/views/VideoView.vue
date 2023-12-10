@@ -105,6 +105,3 @@ article {
 }
 
 </style>
-
-
-  
