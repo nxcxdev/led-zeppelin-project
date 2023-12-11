@@ -1,7 +1,14 @@
-<script setup lang="ts">
+<script lang="ts">
+
 </script>
 
 <template>
+    <section>
+        <img src="../assets/JIMMY PAGE.png" alt="">
+        <img src="../assets/JOHN PAUL JONES.png" alt="">
+        <img src="../assets/JOHN BONHAM.png" alt="">
+        <img src="../assets/ROBERT PLANT.png" alt="">
+    </section>
     <div class="Grid__Container">
         <img src="../assets/GALLERY.png" alt="img gallery">
         <img src="../assets/VIDEOS.png" alt="">
@@ -11,8 +18,10 @@
     </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "../assets/styles.scss";
+
+
 
 .Grid__Container {
     width: 100%;
