@@ -3,12 +3,12 @@
     <header>
         <img src="../assets/LOGO.png" alt="Led Zepelin image">
         <nav>
-        <RouterLink class="routerlink" to="../views/HomeView.vue">Home</RouterLink>    
-        <RouterLink class="routerlink" to="../views/GalleryView.vue">Gallery</RouterLink>    
-        <RouterLink class="routerlink" to="../views/VideoView.vue">Videos</RouterLink>    
-        <RouterLink class="routerlink" to="../views/ShowsView.vue">Shows</RouterLink>    
-        <RouterLink class="routerlink" to="../views/ShopView.vue">Shop</RouterLink>    
-        <RouterLink class="routerlink" to="../views/HistoryView.vue">History</RouterLink>    
+        <RouterLink class="routerlink" to="/">Home</RouterLink>    
+        <RouterLink class="routerlink" to="/gallery">Gallery</RouterLink>    
+        <RouterLink class="routerlink" to="/videos">Videos</RouterLink>    
+        <RouterLink class="routerlink" to="/shows">Shows</RouterLink>    
+        <RouterLink class="routerlink" to="/shop">Shop</RouterLink>    
+        <RouterLink class="routerlink" to="/history">History</RouterLink>    
         </nav>
     </header>
 </template>
