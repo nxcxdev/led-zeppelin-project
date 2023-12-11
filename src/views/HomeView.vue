@@ -2,11 +2,8 @@
 </script>
 
 <template>
-    <section>
-        <img src="../assets/JIMMY PAGE.png" alt="">
-        <img src="../assets/JOHN PAUL JONES.png" alt="">
-        <img src="../assets/JOHN BONHAM.png" alt="">
-        <img src="../assets/ROBERT PLANT.png" alt="">
+    <section class="Banner">
+        <img src="../assets/led-zeppelin-hd.jpg" alt="">
     </section>
     <div class="Grid__Container">
         <img src="../assets/GALLERY.png" alt="img gallery">
@@ -21,6 +18,20 @@
 @import "../assets/styles.scss";
 
 
+.Banner {
+    width: 100%;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        height: 60vh;
+        opacity: .8;
+    }
+
+    img:hover {
+        opacity: 0.9;
+    }
+}
 
 .Grid__Container {
     width: 100%;
